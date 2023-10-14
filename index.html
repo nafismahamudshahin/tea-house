@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- tailwind css link -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Extranal css link -->
+    <link rel="stylesheet" href="style.css">
+    <title>Explain Tailwind</title>
+</head>
+<body class="font-sans">
+    <header class="">
+        <!-- nav -->
+
+        <!-- banner -->
+        <div class="container-2xl mx-auto grid grid-cols-1 md:grid-cols-2 justify-around items-center">
+            <div class=" p-8">
+                <h2 class="text-7xl font-sans font-extrabold text-black">It's good tea time at The Tea House</h2>
+                <p class="text-lg font-normal text-gray-900 py-4">Tea and Botanical Solutions Supplier Give Optimum Satisfaction To Your Taste Buds.</p>
+                <button class="text-white px-8 py-4 rounded-lg flex gap-2 bg-gradient-to-r from-yellow-900 via-red-500 to-pink-400">Explore More
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
+                      </svg>
+                      
+                </button>
+            </div>
+            <div class="relative">
+                <img class="w-fit mx-auto" src="images/banner.png" alt="">
+                <div class="absolute bottom-6 lg:bottom-8 rounded-2xl start-24 lg:start-44 w-52 h-20 lg:w-60 lg:h-24 bg-white shadow-md flex gap-4 items-center justify-center">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M11.48 3.499a.562.562 0 011.04 0l2.125 5.111a.563.563 0 00.475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 00-.182.557l1.285 5.385a.562.562 0 01-.84.61l-4.725-2.885a.563.563 0 00-.586 0L6.982 20.54a.562.562 0 01-.84-.61l1.285-5.386a.562.562 0 00-.182-.557l-4.204-3.602a.563.563 0 01.321-.988l5.518-.442a.563.563 0 00.475-.345L11.48 3.5z" />
+                      </svg>
+                     <div>
+                        <h4 class="text-3xl font-bold">5.00</h4>
+                        <p class="font-normal text-lg">Trust Pilot Ratings</p>
+                     </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- main -->
+    <main class="container-2xl mx-auto">
+        <!-- Our Featured Products -->
+        <section>
+            <h1 class="text-5xl text-center font-bold">Our Featured Products</h1>
+            <p class="text-lg text-center font-semibold w-3/5 my-5  mx-auto">There are many variations of passages of Lorem Ipsum available, but the majority have suffered
+                 alteration in some form, by injected humour, or randomised words which don't look even slightly believable. </p>
+            <div class="cards grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+                <div class="card  text-center p-3 py-10 bg-gradient-to-r from-yellow-200 via-red-400 to-pink-200 rounded-lg shadow ">
+                    <div>
+                        <img class="mx-auto w-52 " src="images/tea-1.png" alt="">
+                    </div>
+                    <h3 class="text-3xl font-semibold font-sans mt-3">Milk Tea</h3>
+                    <p class="text-md font-normal">Creamer cound be replaced by fresh milk</p>
+                </div>
+                <div class="card  text-center p-7 bg-gradient-to-r from-yellow-200 via-red-400 to-pink-200 rounded-lg shadow ">
+                    <img class="mx-auto w-52" src="images/tea-2.png" alt="">
+                    <h3 class="text-3xl font-semibold font-sans mt-3">Milk Tea</h3>
+                    <p class="text-md font-normal">Creamer cound be replaced by fresh milk</p>
+                </div>
+                <div class="card  text-center p-7 bg-gradient-to-r from-yellow-200 via-red-400 to-pink-200 rounded-lg shadow ">
+                    <img class="mx-auto w-52" src="images/tea-3.png" alt="">
+                    <h3 class="text-3xl font-semibold font-sans mt-3">Milk Tea</h3>
+                    <p class="text-md font-normal">Creamer cound be replaced by fresh milk</p>
+                </div>
+                <div class="card  text-center p-7 bg-gradient-to-r from-yellow-200 via-red-400 to-pink-200 rounded-lg shadow ">
+                    <img class="mx-auto w-52" src="images/tea-4.png" alt="">
+                    <h3 class="text-3xl font-semibold font-sans mt-3">Milk Tea</h3>
+                    <p class="text-md font-normal">Creamer cound be replaced by fresh milk</p>
+                </div>
+              
+            </div>
+        </section>
+    </main>
+</body>
+</html>
